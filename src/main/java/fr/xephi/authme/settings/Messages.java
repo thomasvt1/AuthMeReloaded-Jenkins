@@ -86,7 +86,7 @@ public class Messages extends CustomConfiguration {
         	loc = (String) this.get(msg);
         }
         if (loc == null)
-        	return "Error with Translation files; Please contact the admin";
+        	return msg;
         return loc.replace("&", "\u00a7");
     }
 
